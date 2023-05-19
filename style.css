@@ -15,9 +15,6 @@ a {
     color: #F9FAF8;
 }
 
-.hero {
-}
-
 .title {
     font-size: 48px;
     font-weight: extra-bold;
@@ -27,4 +24,52 @@ a {
 .main {
     display: flex;
     background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 48px;
+}
+
+.picture_container > img, .picture_container > p {
+    width: 200px;
+    height: auto;
+}
+
+.picture_container > img {
+    border-radius: 10%;
+    border: 4px solid #3882F6;
+}
+
+.picture_container > p {
+    
+}
+
+.staff {
+    text-align: center;
+}
+
+.staff > h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quote_container {
+    background-color: #E5E7EB;
 }
