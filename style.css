@@ -19,7 +19,7 @@ header {
   background-color: #1F2937;
   color: #F9FAF8;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -47,19 +47,26 @@ a,
 .main {
   display: flex;
   background-color: #1F2937;
+  justify-content: space-around;
   padding: 4rem 8rem;
   gap: 3rem;
+  /* flex-wrap: wrap; */
+  align-items: center;
 }
 
 .main > img {
   flex-grow: 0;
-  flex-shrink: 1;
+  flex-shrink: 0;
+  min-width: 700px;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
   display: flex;
   justify-content: center;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .picture_container > img,
@@ -122,6 +129,7 @@ p.quote {
   display: flex;
   margin: 6rem 12rem;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 button {
